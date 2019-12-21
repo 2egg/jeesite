@@ -1,6 +1,6 @@
-## 关注 JeeSite 4.0 请移步: <https://gitee.com/thinkgem/jeesite4>
 
-# JeeSite 企业信息化快速开发平台
+
+# JeeSite 企业信息化快速开发平台-建筑工程管理系统
 
 ## 平台简介
 
@@ -115,21 +115,6 @@ JeeSite 提供了常用工具进行封装，包括日志工具、缓存工具、
 2. 有时出现文字乱码：修改Tomcat的server.xml文件的Connector项，增加URIEncoding="UTF-8"
 3. 为什么新建菜单后看不到新建的菜单？因为授权问题，菜单管理只允许最高管理员账号管理（最高管理员默认账号：thinkgem 密码：admin）。
 
-## 更多文档
-
-* <https://github.com/thinkgem/jeesite/tree/master/doc>
-
-## 如何交流、反馈、参与贡献？
-
-* QQ 群号： `127515876`、`209330483`、`223507718`、`709534275`、`730390092`、`183903863(外包)`
-* GitHub：<https://github.com/thinkgem/jeesite>
-* 开源中国：<https://gitee.com/thinkgem/jeesite>
-* 官方网址：<http://jeesite.com>  论坛：<http://www.jeesite.net>
-* 支持JeeSite发展：（加我好友）支付宝：thinkgem@163.com &nbsp; 微信：thinkgem
-
-一个人的个人能力再强，也无法战胜一个团队，希望兄弟姐妹的支持，能够贡献出自己的部分代码，参与进来共同完善它(^_^)。
-
-怎么共享我的代码：[手把手教你如何加入到github的开源世界！](http://www.cnblogs.com/wenber/p/3630921.html)
 
 ## 版权声明
 
@@ -158,6 +143,3 @@ Hibernate性能上定不是问题。但对于大多数情况下，真正掌握Hi
 数据库的支持，但对于支持其它数据库的改动也不是很麻烦，SQL是被专门写在XML中，对于大多数SQL来说都是通用的，
 对于不同的数据库可通过dbName区分和修改各别的SQL片段即可。
 
-上述纯属个人观点，欢迎指正（thinkgem@163.com）。
-
-如果你仍然喜欢Hibernate，请点击[下载JeeSite Hibernate版本](https://github.com/thinkgem/jeesite/tree/master_hibernate)。
